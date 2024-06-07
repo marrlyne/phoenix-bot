@@ -52,6 +52,9 @@ export const execute = async () => {
     throw new Error("Market data not found");
   }
 
+
+  
+
   const setupNewMakerIxs = await phoenixSdk.getMakerSetupInstructionsForMarket(
     connection,
     marketState,
